@@ -9,7 +9,6 @@ Il a été conçu pour garantir :
 
 >  **Ce registre ne repose sur **aucune blockchain**, n'utilise **aucun gas ni frais de réseau**, et est 100% interopérable avec des outils classiques (Git, JSON, shell).**
 
-
 ## 🔒 Principes Fondateurs
 
 ### 💰 Quantité maximale émise
