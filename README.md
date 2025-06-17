@@ -1,23 +1,23 @@
 # 📒 Registre Officiel XPLT
 
-Ce dépôt contient le registre public, transparent, vérifiable et append-only du jeton communautaire souverain **XPLT**.
+Ce dépôt contient le registre public, transparent, vérifiable et append-only du jeton communautaire souverain **`XPLT`**.
 
 Il a été conçu pour garantir :
 - la **traçabilité complète** de toutes les émissions, réserves et distributions,
 - une **auditabilité ouverte**, sans besoin de blockchain ni smart contract,
 - une **résistance aux falsifications** par versionnement Git et signatures cryptographiques.
 
->  **Ce registre ne repose sur **aucune blockchain**, n'utilise **aucun gas ni frais de réseau**, et est 100% interopérable avec des outils classiques (Git, JSON, shell).**
+>  **Ce registre ne repose sur aucune `blockchain` et n'utilise `aucun gas ni frais de réseau` en étant 100% interopérable avec des outils classiques (Git, JSON, shell).**
 
 ## 🔒 Principes Fondateurs
 
 ### 💰 Quantité maximale émise
-Le nombre total de tokens XPLT est **strictement plafonné à `111 111 111` unités**.  
+Le nombre total de **tokens `XPLT`** est **strictement plafonné à `111 111 111` unités**.  
 Aucune émission au-delà de cette quantité n’est possible, ni techniquement ni statutairement.  
 Toute nouvelle émission (`mint`) est toujours vérifiable depuis la racine (`/source/`).
 
 ### 🔁 Aucun burn
-XPLT ne prévoit **aucun mécanisme de destruction définitive de tokens**.  
+**`XPLT`** ne prévoit **aucun mécanisme de destruction définitive de tokens**.  
 Lorsqu’un utilisateur retourne des tokens (désengagement, retrait volontaire, etc.), ceux-ci sont simplement **renvoyés à la réserve centrale** sous forme d’opération `return`.
 
 > Le solde total circulant + la réserve = total émis depuis la source.
@@ -47,17 +47,17 @@ Ces preuves permettent de reconstruire la totalité de l’historique, de détec
 <pre lang="md"><code>```json
  {
  
-  "ts": "2025-06-17T14:52:10.327Z",      |-> Horodatage ISO 8601
-  "tx": 248,                             |-> Numéro de transaction unique
-  "op": "envoyer",                       |-> Type d'opération
-  "from": "alice",                       |-> Compte émetteur
-  "to": "bob",                           |-> Compte destinataire
-  "amount": 100,                         |-> Montant transféré
-  "initiator": "alice",                  |-> Initiateur
-  "ref": null,                           |-> Référence externe optionnelle
-  "note": null,                          |-> Note libre optionnelle
-  "version": 1,                          |-> Version du format
-  "sig": "f379ea...c345e09"              |-> Signature
+  "ts": "2025-06-17T14:52:10.327Z",      -> Horodatage ISO 8601
+  "tx": 248,                             -> Numéro de transaction unique
+  "op": "envoyer",                       -> Type d'opération
+  "from": "alice",                       -> Compte émetteur
+  "to": "bob",                           -> Compte destinataire
+  "amount": 100,                         -> Montant transféré
+  "initiator": "alice",                  -> Initiateur
+  "ref": null,                           -> Référence externe optionnelle
+  "note": null,                          -> Note libre optionnelle
+  "version": 1,                          -> Version du format
+  "sig": "f379ea...c345e09"              -> Signature
   
  }
  ```</code></pre>
