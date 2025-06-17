@@ -46,7 +46,7 @@ Chaque transaction est validée publiquement par un ou plusieurs "forgeurs" via 
 
 Ces preuves permettent de reconstruire la totalité de l’historique, de détecter toute incohérence, et d'identifier chaque témoin d'une opération.
 
-<pre lang="md"><code>```json
+<pre lang="md"><code>
  { 
  "ts": "2025-06-17T14:52:10.327Z", // Horodatage ISO 8601
  "tx": 248, // Numéro de transaction unique et croissant
@@ -60,7 +60,7 @@ Ces preuves permettent de reconstruire la totalité de l’historique, de détec
  "version": 1, // Version du format 
  "sig": "f379ea...c345e09" // Signature (hash SHA-256 de l’objet JSON trié)
  }
- ```</code></pre>
+</code></pre>
 
 ---
 
