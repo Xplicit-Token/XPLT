@@ -46,21 +46,23 @@ Chaque transaction est validée publiquement par un ou plusieurs "forgeurs" via 
 
 Ces preuves permettent de reconstruire la totalité de l’historique, de détecter toute incohérence, et d'identifier chaque témoin d'une opération.
 
-<pre lang="md"><code>
- { 
- "ts": "2025-06-17T14:52:10.327Z", // Horodatage ISO 8601
- "tx": 248, // Numéro de transaction unique et croissant
- "op": "envoyer", // Type d'opération (@mint, @distribuer, @return, @envoyer, @recevoir)
- "from": "alice", // Compte émetteur (@source, @reserve ou @pseudo)
- "to": "bob", // Compte destinataire (@reserve ou @pseudo)
- "amount": 100, // Montant transféré
- "initiator": "alice", // Initiateur (@systeme ou @pseudo) 
- "ref": null, // Référence externe optionnelle 
- "note": null, // Note libre optionnelle 
- "version": 1, // Version du format 
- "sig": "f379ea...c345e09" // Signature (hash SHA-256 de l’objet JSON trié)
+<pre lang="md"><code>```json
+ {
+ 
+  "ts": "2025-06-17T14:52:10.327Z",      // Horodatage ISO 8601
+  "tx": 248,                             // Numéro de transaction unique
+  "op": "envoyer",                       // Type d'opération
+  "from": "alice",                       // Compte émetteur
+  "to": "bob",                           // Compte destinataire
+  "amount": 100,                         // Montant transféré
+  "initiator": "alice",                  // Initiateur
+  "ref": null,                           // Référence externe optionnelle
+  "note": null,                          // Note libre optionnelle
+  "version": 1,                          // Version du format
+  "sig": "f379ea...c345e09"              // Signature
+  
  }
-</code></pre>
+ ```</code></pre>
 
 ---
 
@@ -68,7 +70,7 @@ Ces preuves permettent de reconstruire la totalité de l’historique, de détec
 
 Ce dépôt est organisé en **sous-dossiers temporels (`YYYY/MM/YYYY-MM-DD.jsonl`)**, chacun ne contenant que des **append-only logs**.
 
-```plaintext
+<pre lang="md"><code>```json
 xplt/
 ├── source/                        ← Emissions contrôlées depuis la source vers la réserve
 │   └── YYYY/MM/YYYY-MM-DD.jsonl
@@ -89,3 +91,4 @@ xplt/
                        ▲     ▲
                        │     └─ retour via `return`
                        └─ mise en réserve via `source`
+ ```</code></pre>
