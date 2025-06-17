@@ -1,4 +1,4 @@
-# 📒 Registre Officiel ` XPLT `
+# ⬛ Registre Officiel ` XPLT `
 
 Ce dépôt contient le registre public, transparent, vérifiable et append-only du jeton communautaire souverain **`XPLT`**.
 
