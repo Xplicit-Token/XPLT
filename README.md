@@ -47,17 +47,17 @@ Ces preuves permettent de reconstruire la totalité de l’historique, de détec
 <pre lang="md"><code>```json
  {
  
-  "ts": "2025-06-17T14:52:10.327Z",      -> Horodatage ISO 8601
-  "tx": 248,                             -> Numéro de transaction unique
-  "op": "envoyer",                       -> Type d'opération
-  "from": "alice",                       -> Compte émetteur
-  "to": "bob",                           -> Compte destinataire
-  "amount": 100,                         -> Montant transféré
-  "initiator": "alice",                  -> Initiateur
-  "ref": null,                           -> Référence externe optionnelle
-  "note": null,                          -> Note libre optionnelle
-  "version": 1,                          -> Version du format
-  "sig": "f379ea...c345e09"              -> Signature
+  "ts": "2025-06-17T14:52:10.327Z",       Horodatage ISO 8601
+  "tx": 248,                              Numéro de transaction unique
+  "op": "envoyer",                        Type d'opération
+  "from": "alice",                        Compte émetteur
+  "to": "bob",                            Compte destinataire
+  "amount": 100,                          Montant transféré
+  "initiator": "alice",                   Initiateur
+  "ref": null,                            Référence externe optionnelle
+  "note": null,                           Note libre optionnelle
+  "version": 1,                           Version du format
+  "sig": "f379ea...c345e09"               Signature
   
  }
  ```</code></pre>
