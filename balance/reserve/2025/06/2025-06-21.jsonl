@@ -9,3 +9,4 @@
 {"ts":"2025-06-21T19:11:07.996Z","tx":17,"op":"mint","from":"source","to":"reserve","amount":1,"initiator":"antoine","ref":null,"note":null,"version":1,"sig":"125ad5932c73a83660fb563f2538101130ca6608e4fc69b20c60238b5ec381c3"}
 {"ts":"2025-06-21T23:51:51.278Z","tx":19,"op":"mint","from":"source","to":"reserve","amount":1,"initiator":"fond-alpha","ref":null,"note":null,"version":1,"sig":"18344f25e9d488a6ed6a3ca0d11bf409dde4bb3700632246521b13c735b49662"}
 {"ts":"2025-06-21T23:52:03.645Z","tx":21,"op":"mint","from":"source","to":"reserve","amount":1,"initiator":"fond-alpha","ref":null,"note":null,"version":1,"sig":"82b4acdab6a3d2208b1e0bb2dd0af07fb9da8aaeb2062430419835f09c08238e"}
+{"ts":"2025-06-21T23:52:15.346Z","tx":23,"op":"mint","from":"source","to":"reserve","amount":1,"initiator":"fond-alpha","ref":null,"note":null,"version":1,"sig":"a305b0dd4ddd95090fa1cad118abf76af1d9dfcf5fbc70151ff76276db6ce906"}

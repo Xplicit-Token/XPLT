@@ -20,3 +20,4 @@
 {"ts":"2025-06-21T23:51:51.275Z","tx":20,"op":"distribute","from":"reserve","to":"fond-alpha","amount":1,"initiator":"fond-alpha","ref":null,"note":null,"version":1,"sig":"80798a5fcd02f38e6486dea29f0a7efad07cdf1dcd08e0da0e5bcf64f873a8d5"}
 {"ts":"2025-06-21T23:52:03.645Z","tx":21,"op":"mint","from":"source","to":"reserve","amount":1,"initiator":"fond-alpha","ref":null,"note":null,"version":1,"sig":"82b4acdab6a3d2208b1e0bb2dd0af07fb9da8aaeb2062430419835f09c08238e"}
 {"ts":"2025-06-21T23:52:03.644Z","tx":22,"op":"distribute","from":"reserve","to":"fond-alpha","amount":1,"initiator":"fond-alpha","ref":null,"note":null,"version":1,"sig":"ebff12d81b621c72f1a650ec790bcbc28ea62ff6d0b6a2aad9126afed2d2dcd1"}
+{"ts":"2025-06-21T23:52:15.346Z","tx":23,"op":"mint","from":"source","to":"reserve","amount":1,"initiator":"fond-alpha","ref":null,"note":null,"version":1,"sig":"a305b0dd4ddd95090fa1cad118abf76af1d9dfcf5fbc70151ff76276db6ce906"}
