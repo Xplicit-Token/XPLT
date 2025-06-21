@@ -1,2 +1,1 @@
-{"ts":"2025-06-21T17:17:51.557Z","tx":1,"op":"mint","from":"source","to":"reserve","amount":1,"initiator":"inconnu","ref":null,"note":null,"version":1,"sig":"cf3acd2affada2835987a28d8902b8b1c5f02542639746831b7d8e2dfce9f05d"}
 {"ts":"2025-06-21T17:17:51.555Z","tx":2,"op":"distribute","from":"reserve","to":"inconnu","amount":1,"initiator":"inconnu","ref":null,"note":null,"version":1,"sig":"242d6c631cdda4573a3f2499c7258b5c64b28e634795025b35265ca4f9d467d8"}
