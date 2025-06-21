@@ -21,3 +21,4 @@
 {"ts":"2025-06-21T23:52:03.645Z","tx":21,"op":"mint","from":"source","to":"reserve","amount":1,"initiator":"fond-alpha","ref":null,"note":null,"version":1,"sig":"82b4acdab6a3d2208b1e0bb2dd0af07fb9da8aaeb2062430419835f09c08238e"}
 {"ts":"2025-06-21T23:52:03.644Z","tx":22,"op":"distribute","from":"reserve","to":"fond-alpha","amount":1,"initiator":"fond-alpha","ref":null,"note":null,"version":1,"sig":"ebff12d81b621c72f1a650ec790bcbc28ea62ff6d0b6a2aad9126afed2d2dcd1"}
 {"ts":"2025-06-21T23:52:15.346Z","tx":23,"op":"mint","from":"source","to":"reserve","amount":1,"initiator":"fond-alpha","ref":null,"note":null,"version":1,"sig":"a305b0dd4ddd95090fa1cad118abf76af1d9dfcf5fbc70151ff76276db6ce906"}
+{"ts":"2025-06-21T23:52:15.345Z","tx":24,"op":"distribute","from":"reserve","to":"fond-alpha","amount":1,"initiator":"fond-alpha","ref":null,"note":null,"version":1,"sig":"19090d1090e68bbab4e01de5b3be0e1f2adfafeb44632aed8e120702d70541dc"}
