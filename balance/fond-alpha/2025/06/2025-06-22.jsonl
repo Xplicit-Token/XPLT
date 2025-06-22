@@ -1,2 +1,1 @@
 {"ts":"2025-06-22T17:33:53.951Z","tx":2,"op":"distribute","from":"reserve","to":"fond-alpha","amount":1,"initiator":"fond-alpha","ref":"fond-alpha-mc7y0u8o-ff8b","note":null,"version":1,"sig":"76509695caf50008292554947f79edee613b57f98e3a56be64cb9f3f06df9efa"}
-{"ts":"2025-06-22T17:33:53.954Z","tx":1,"op":"mint","from":"source","to":"reserve","amount":1,"initiator":"fond-alpha","ref":null,"note":null,"version":1,"sig":"f8d2eb93da070f93d758c36a5d70a4b818afbbbe5e4156815edba248b343929f"}
