@@ -1,2 +1,3 @@
+{"ts":"2025-06-26T19:07:02.972Z","tx":12,"op":"return","from":"init-init","to":"reserve","amount":1,"initiator":"fond-alpha","ref":"init-init-mcdr8w4z-4f5c","note":null,"version":1,"balance":2,"sig":"f856c4dff213c9bb551376f49009899e57cda4ddac9dc1109f76d82d4cf8e585"}
 {"ts":"2025-06-26T18:38:50.792Z","tx":6,"op":"return","from":"init-init","to":"reserve","amount":1,"initiator":"fond-alpha","ref":"init-init-mcdq8mfy-b17b","note":null,"version":1,"balance":1,"sig":"bebb2e87f99841851f570098ed11a4e66f03982d802a55da5fbb85642e57af95"}
 {"ts":"2025-06-26T17:02:45.059Z","tx":1,"op":"mint","from":"source","to":"reserve","amount":10,"initiator":"init-init","ref":null,"note":null,"version":1,"balance":0,"sig":"49fa1cc00c8c603a19a1555286d140402a5b075ffc24f07dfd38bf833af547d7"}
