@@ -1,1 +1,2 @@
+{"ts":"2025-06-26T18:14:12.951Z","tx":5,"op":"return","from":"init-init","to":"reserve","amount":3,"initiator":"fond-alpha","ref":"init-init-mcdpcy4w-51bd","note":null,"version":1,"balance":7,"sig":"8db48259037ea4fe1d45e954f913f06198229e3a6ba7e10082196cd8e4a2bbee"}
 {"ts":"2025-06-26T17:02:45.055Z","tx":2,"op":"distribute","from":"reserve","to":"init-init","amount":10,"initiator":"init-init","ref":"init-init-mcdmt1kn-fab6","note":null,"version":1,"balance":10,"sig":"56c2f79be28dbd7037e41a5e267d7da7cdbaf5f6879d7afbe03c1ecbe66c0845"}
