@@ -1,1 +1,3 @@
 {"ts":"2025-08-11T21:40:12.746Z","ymd":"2025-08-11","tx":1,"op":"mint","from":"source","to":"reserve","amount":100,"initiator":"init-admin","ref":null,"note":null,"version":1,"sig":"d649746ad58857e8d60cda27385cc7df629e1458c8d54220b083e92a96965dcc"}
+{"ts":"2025-08-11T21:40:12.747Z","ymd":"2025-08-11","tx":2,"op":"distribute","from":"reserve","to":"init-admin","amount":100,"initiator":"init-admin","ref":"init-admin-me7mz1oq-1b99","note":null,"version":1,"sig":"7b6424b5fedaf363d2ddf50cef8356329e22b25b2372b391707913ee8a425a1f"}
+{"ts":"2025-08-11T21:48:08.616Z","ymd":"2025-08-11","tx":3,"op":"mint","from":"source","to":"reserve","amount":1,"initiator":"init-bob","ref":null,"note":null,"version":1,"sig":"1482b65d2e68005a2a38542444a3344e5638922abe3bfce71530b2355b75a93c"}

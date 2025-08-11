@@ -1,1 +1,2 @@
 {"ts":"2025-08-11T21:40:12.746Z","ymd":"2025-08-11","tx":1,"op":"mint","from":"source","to":"reserve","amount":100,"initiator":"init-admin","ref":null,"note":null,"version":1,"circulation":200,"hardcap":1111111111,"sig":"6bc3539134081880c9da4da4e526d5943d6814212228edc38faa2fff6bf041c9"}
+{"ts":"2025-08-11T21:48:08.616Z","ymd":"2025-08-11","tx":3,"op":"mint","from":"source","to":"reserve","amount":1,"initiator":"init-bob","ref":null,"note":null,"version":1,"circulation":102,"hardcap":1111111111,"sig":"bc29225bcd7e595b456d62440b964744ad1ed11d47a3f7c0051b834b402b73f6"}
