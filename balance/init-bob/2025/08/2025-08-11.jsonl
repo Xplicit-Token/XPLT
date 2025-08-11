@@ -1,0 +1,1 @@
+{"ts":"2025-08-11T21:48:08.617Z","ymd":"2025-08-11","tx":4,"op":"distribute","from":"reserve","to":"init-bob","amount":1,"initiator":"init-bob","ref":"init-bob-me7n98v7-785e","note":null,"version":1,"account":"init-bob","counterparty":"reserve","leg":"credit","delta":1,"balance":1,"sig":"c7b06b6d482d19d875e32b9d04a51910995076582f05d4b9767fdb56ad4aba68"}
