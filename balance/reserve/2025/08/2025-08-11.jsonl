@@ -1,0 +1,1 @@
+{"ts":"2025-08-11T21:40:12.746Z","ymd":"2025-08-11","tx":1,"op":"mint","from":"source","to":"reserve","amount":100,"initiator":"init-admin","ref":null,"note":null,"version":1,"account":"reserve","counterparty":"source","leg":"credit","delta":100,"balance":100,"sig":"d12c661677bfbb5a45165a87788df46504681aae1fc05ab074181201c66c65dc"}
